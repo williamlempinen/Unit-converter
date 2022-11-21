@@ -1,3 +1,45 @@
-#lengths {
-    position:inherit;
+:root {
+    --primary-color: #D8D9CF;
+    --secondary-color0: #EDEDED;
+    --secondary-color1: #FF8787;
+    --secondary-color2: #E26868;
+}
+
+body {
+    background-color: var(--primary-color);
+}
+
+#convert-button{
+    background-color: var(--secondary-color2);
+    color: var(--secondary-color0);
+    border-color:var(--secondary-color0);
+    border-radius: 20px;
+}
+
+#input-field{
+    background-color: var(--secondary-color0);
+    color: var(--secondary-color1);
+    border-color: var(--secondary-color0);
+    border-radius: 20px;
+}
+
+#result-field{
+    background-color: var(--secondary-color0);
+    color: var(--secondary-color1);
+    border-color: var(--secondary-color0);
+    border-radius: 20px;
+}
+
+#input-type{
+    background-color: var(--secondary-color2);
+    color: var(--secondary-color0);
+    border-color: var(--secondary-color0);
+    border-radius: 20px;
+}
+
+#result-type{
+    background-color: var(--secondary-color2);
+    color: var(--secondary-color0);
+    border-color: var(--secondary-color0);
+    border-radius: 20px;
 }
