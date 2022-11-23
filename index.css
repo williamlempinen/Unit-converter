@@ -70,3 +70,7 @@ body {
     border-color: var(--secondary-color0);
     border-radius: 20px;
 }
+
+::placeholder {
+    color: var(--secondary-color2);
+}
