@@ -24,67 +24,67 @@ convertButton.addEventListener("click", () => {
     iTypeValue = inputType.value;
     rTypeValue = resultType.value;
     
-    if (iTypeValue ==="meters" && rTypeValue == "feet") {
+    if (iTypeValue ==="meters" && rTypeValue === "feet") {
         resultField.value = parseFloat(inputField.value * 3.28).toFixed(2);
     }
 
-    else if (iTypeValue ==="meters" && rTypeValue == "meters") {
+    else if (iTypeValue ==="meters" && rTypeValue === "meters") {
         resultField.value = parseFloat(inputField.value * 1).toFixed(2);
     }
 
-    else if (iTypeValue ==="meters" && rTypeValue == "yards") {
+    else if (iTypeValue ==="meters" && rTypeValue === "yards") {
         resultField.value = parseFloat(inputField.value * 1.09).toFixed(2);
     }
 
-    else if (iTypeValue ==="meters" && rTypeValue == "miles") {
+    else if (iTypeValue ==="meters" && rTypeValue === "miles") {
         resultField.value = parseFloat(inputField.value * 0.0006).toFixed(4);
     }
 
-    else if (iTypeValue ==="yards" && rTypeValue == "meters") {
+    else if (iTypeValue ==="yards" && rTypeValue === "meters") {
         resultField.value = parseFloat(inputField.value * 0.91).toFixed(2);
     }
 
-    else if (iTypeValue ==="yards" && rTypeValue == "feet") {
+    else if (iTypeValue ==="yards" && rTypeValue === "feet") {
         resultField.value = parseFloat(inputField.value * 3).toFixed(2);
     }
 
-    else if (iTypeValue ==="yards" && rTypeValue == "miles") {
+    else if (iTypeValue ==="yards" && rTypeValue === "miles") {
         resultField.value = parseFloat(inputField.value * 0.0005).toFixed(4);
     }
 
-    else if (iTypeValue ==="yards" && rTypeValue == "yards") {
+    else if (iTypeValue ==="yards" && rTypeValue === "yards") {
         resultField.value = parseFloat(inputField.value * 1).toFixed(2);
     }
 
-    else if (iTypeValue ==="feet" && rTypeValue == "feet") {
+    else if (iTypeValue ==="feet" && rTypeValue === "feet") {
         resultField.value = parseFloat(inputField.value * 1).toFixed(2);
     }
 
-    else if (iTypeValue ==="feet" && rTypeValue == "meters") {
+    else if (iTypeValue ==="feet" && rTypeValue === "meters") {
         resultField.value = parseFloat(inputField.value * 0.3).toFixed(2);
     }
 
-    else if (iTypeValue ==="feet" && rTypeValue == "yards") {
+    else if (iTypeValue ==="feet" && rTypeValue === "yards") {
         resultField.value = parseFloat(inputField.value * 0.33).toFixed(2);
     }
 
-    else if (iTypeValue ==="feet" && rTypeValue == "miles") {
+    else if (iTypeValue ==="feet" && rTypeValue === "miles") {
         resultField.value = parseFloat(inputField.value * 0.0002).toFixed(4);
     }
 
-    else if (iTypeValue ==="miles" && rTypeValue == "miles") {
+    else if (iTypeValue ==="miles" && rTypeValue === "miles") {
         resultField.value = parseFloat(inputField.value * 1).toFixed(2);
     }
 
-    else if (iTypeValue ==="miles" && rTypeValue == "meters") {
+    else if (iTypeValue ==="miles" && rTypeValue === "meters") {
         resultField.value = parseFloat(inputField.value * 1609.3).toFixed(2);
     }
 
-    else if (iTypeValue ==="miles" && rTypeValue == "yards") {
+    else if (iTypeValue ==="miles" && rTypeValue === "yards") {
         resultField.value = parseFloat(inputField.value * 1760).toFixed(2);
     }
 
-    else if (iTypeValue ==="miles" && rTypeValue == "feet") {
+    else if (iTypeValue ==="miles" && rTypeValue === "feet") {
         resultField.value = parseFloat(inputField.value * 5280).toFixed(2);
     }
 })

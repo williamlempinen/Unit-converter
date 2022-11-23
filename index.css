@@ -7,6 +7,33 @@
 
 body {
     background-color: var(--primary-color);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#header {
+    display: flex;
+    justify-content: center;
+    color: var(--secondary-color2);
+}
+
+#container {
+    height: 150px;
+    margin: 50px;
+    outline: solid 2px var(--secondary-color1);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+#lengths {
+    width: 500px;
+    height: 50px;
+}
+
+#lengths-header {
+    display: flex;
+    justify-content: center;
+    color: var(--secondary-color2);
 }
 
 #convert-button{
